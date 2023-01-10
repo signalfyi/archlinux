@@ -1,1 +1,1 @@
-FROM archlinux:base
+FROM archlinux:base@sha256:9167ec489f207c80e953375d3c5554c4846ef6cfe3869a536e710e2be6b405de
