@@ -1,0 +1,110 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "version": 1,
+  "metadata": {
+    "tools": [
+      {
+        "name": "trivy",
+        "vendor": "aquasecurity",
+        "version": "unknown"
+      }
+    ],
+    "component": {
+      "name": "archlinux",
+      "purl": "pkg:oci/archlinux@base?digest=sha256:ad18112a3888d427b18a004309eff649418b68ddee0e71004c36b87630baac4c",
+      "type": "library",
+      "bom-ref": "pkg:oci/archlinux@base?digest=sha256:ad18112a3888d427b18a004309eff649418b68ddee0e71004c36b87630baac4c",
+      "version": "base"
+    },
+    "timestamp": "2024-12-06T23:14:21.890180+00:00"
+  },
+  "bomFormat": "CycloneDX",
+  "components": [
+    {
+      "name": "f6477141-2548-4a5e-a735-295be268c626",
+      "type": "library",
+      "bom-ref": "BomRef.6980304529970607.14754818669035308",
+      "version": "unknown"
+    },
+    {
+      "name": "kernel.org/pub/linux/libs/security/libcap/cap",
+      "type": "library",
+      "bom-ref": "BomRef.7522970397608947.90965635212053",
+      "version": "v1.2.71"
+    },
+    {
+      "name": "kernel.org/pub/linux/libs/security/libcap/psx",
+      "type": "library",
+      "bom-ref": "BomRef.0251721951966134.6901371236151541",
+      "version": "v1.2.71"
+    },
+    {
+      "name": "pkg:golang/kernel.org/pub/linux/libs/security/libcap/cap@v1.2.71",
+      "type": "library",
+      "bom-ref": "BomRef.1497307946864309.33246263591770264",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:golang/kernel.org/pub/linux/libs/security/libcap/psx@v1.2.71",
+      "type": "library",
+      "bom-ref": "BomRef.014144272189635987.0659707441247318",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:golang/stdlib@v1.23.2",
+      "type": "library",
+      "bom-ref": "BomRef.5237558698758662.6422378456000474",
+      "version": "unknown"
+    },
+    {
+      "name": "pkg:oci/archlinux@sha256%3Aad18112a3888d427b18a004309eff649418b68ddee0e71004c36b87630baac4c?arch=amd64&repository_url=index.docker.io%2Flibrary%2Farchlinux",
+      "type": "library",
+      "bom-ref": "BomRef.02232381941956796.3343710084873738",
+      "version": "unknown"
+    },
+    {
+      "name": "stdlib",
+      "type": "library",
+      "bom-ref": "BomRef.35425867116593046.784771165453208",
+      "version": "v1.23.2"
+    }
+  ],
+  "specVersion": "1.6",
+  "dependencies": [
+    {
+      "ref": "BomRef.6980304529970607.14754818669035308"
+    },
+    {
+      "ref": "BomRef.1497307946864309.33246263591770264"
+    },
+    {
+      "ref": "BomRef.014144272189635987.0659707441247318"
+    },
+    {
+      "ref": "BomRef.5237558698758662.6422378456000474"
+    },
+    {
+      "ref": "BomRef.02232381941956796.3343710084873738"
+    },
+    {
+      "ref": "BomRef.7522970397608947.90965635212053"
+    },
+    {
+      "ref": "BomRef.0251721951966134.6901371236151541"
+    },
+    {
+      "ref": "BomRef.35425867116593046.784771165453208"
+    },
+    {
+      "ref": "pkg:oci/archlinux@base?digest=sha256:ad18112a3888d427b18a004309eff649418b68ddee0e71004c36b87630baac4c",
+      "dependsOn": [
+        "BomRef.02232381941956796.3343710084873738",
+        "BomRef.014144272189635987.0659707441247318",
+        "BomRef.5237558698758662.6422378456000474",
+        "BomRef.1497307946864309.33246263591770264",
+        "BomRef.6980304529970607.14754818669035308"
+      ]
+    }
+  ],
+  "serialNumber": "urn:uuid:41fd3fd1-8e6f-444b-96e8-ea56325284e2"
+}
